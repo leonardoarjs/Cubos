@@ -1,1 +1,0 @@
-console.log("Leonardo Almeida Santana");
