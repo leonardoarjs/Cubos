@@ -1,4 +1,5 @@
 ![](https://i.imgur.com/xG74tOh.png)
+![image](PI_number.jpg)
 
 # Calculating the pi number 
 
