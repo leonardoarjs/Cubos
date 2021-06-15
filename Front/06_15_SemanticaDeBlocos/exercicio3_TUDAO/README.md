@@ -5,7 +5,6 @@
 - metas
 - estilização texto 
 - informações pagina
-- 
 ![image](et.jpg)
 
 
