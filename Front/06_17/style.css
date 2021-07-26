@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+a{
+    text-decoration:none;
+    color: brown;
+}
+
+p{
+    font-weight: normal;
+}
+
+h1,p{
+    font-family: ;
+}

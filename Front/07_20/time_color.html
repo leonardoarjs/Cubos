@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Leonardo Almeida Santana</h1>
+</body>
+<script>
+    const h1 = document.querySelector('h1')
+    let i = 0
+    let j = 0
+    const cor = setInterval(() => {
+        if (i <= 10) {
+            if (j == 1) {
+                h1.style.color = 'red'
+                j = 0
+            } else {
+                h1.style.color = 'blue'
+                j = 1;
+            }
+        } else {
+            clearInterval(cor)
+        }
+
+        i += 1
+    }, 100);
+</script>
+
+</html>

@@ -1,0 +1,9 @@
+h1{
+    color: rebeccapurple;
+}
+header > h1{
+    color: royalblue;
+}
+div h1{
+    color: salmon;
+}

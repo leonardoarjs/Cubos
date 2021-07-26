@@ -1,0 +1,10 @@
+ul{
+    font-family: sans-serif;
+    font-style: normal;
+    color: lightcoral;
+    list-style-type: none;
+    padding: 0px;
+}
+a{
+    color: lightgreen;
+}

@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    
+}
+.input-container input{
+    all: unset;
+    padding: 12px 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.input-container label{
+    margin-bottom: 8px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 30px;
+}
+button{
+    all: unset;
+    width: 300px;
+    background: gray;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.input-container input:focus{
+    box-shadow: 0px 4px 24px 0px #cfcfcf;
+}
+.input-container input::placeholder{
+    color: gray;
+}
+.senha{
+    display: flex;
+    justify-content: space-between;
+}
+.senha a{
+    text-decoration: none;
+} 
+button:hover{
+    background: #6e6e6e;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+body{
+    font-size: 200%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header, footer{
+    background: cornflowerblue;
+}
+aside{
+    background: darkgray;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    
+    justify-content: center;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}

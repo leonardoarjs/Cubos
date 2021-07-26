@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+    </style>
+</head>
+
+<body>
+    <button class="vermelho">Vermelho</button>
+    <button class="amarelo">Amarelo</button>
+</body>
+<script>
+    const btn_ver = document.querySelector('.vermelho')
+    const btn_ama = document.querySelector('.amarelo')
+    const body = document.querySelector("body")
+    btn_ama.onclick = function () {
+        body.style.backgroundColor = 'yellow'
+    }
+    btn_ver.onclick = function () {
+        body.style.backgroundColor = 'red'
+    }
+</script>
+
+</html>
